@@ -1,0 +1,51 @@
+.app__item {
+    text-align: center;
+}
+
+.app__form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 50%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.app__input {
+    margin-top: 1rem;
+}
+
+.modal__background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.modal__container {
+    min-width: 200px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-weight: bold;
+}

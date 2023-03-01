@@ -1,0 +1,28 @@
+.app__container {
+  padding: 2rem;
+}
+
+.app__table {
+  background-color: lightblue;
+  width: 400px;
+  margin: 2rem 0;
+}
+
+.app__item {
+  background-color: lightcyan;
+}
+
+.field-error {
+  border:1px solid red;
+}
+
+.error {
+  position: absolute;
+  bottom: 0;
+  color: red;
+}
+
+.app__form-section {
+  display: flex;
+  flex-direction: column;
+}
